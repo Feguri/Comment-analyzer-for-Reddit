@@ -1,6 +1,7 @@
 # Comment-analyzer-for-Reddit
 This Python software will scan all the 'p' elements in a website and separate all the keywords selected by the user into an ordered list.
 
+Video Help -> https://youtu.be/vX-ZG5A0P_E
 # Step 1
 set variables for wait_time (seconds), alist and url for the Analyze Class.
 
