@@ -2,9 +2,9 @@ from analyser import Analyse
 
 
 def my_analysis():
-    wait_time = 10
-    my_list = ['i', 'a', 'of', 'the', 'roman', 'empire']
-    url = 'https://en.wikipedia.org/wiki/Roman_Empire'
+    wait_time = 10 # Set to a wait time for you to scroll through and load a desirable amount of comments
+    my_list = ['i', 'a', 'of', 'the', 'roman', 'empire'] # Choose keywords
+    url = 'https://en.wikipedia.org/wiki/Roman_Empire' #Choose your URL (preferrably a reddit comment section)
 
     data = Analyse(url=url, alist=my_list, wait_time=wait_time)
 
