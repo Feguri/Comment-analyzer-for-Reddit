@@ -5,7 +5,7 @@ This Python software will scan all the 'p' elements in a website and separate al
 set variables for wait_time (seconds), alist and url for the Analyze Class.
 
 # Step 2
-the point of wait_time is to set a time for you to scroll through the comments of the reddit page you want to data mine, therefore loading the comments.
+The point of wait_time is to set a time for you to scroll through the comments of the reddit page you want to data mine, therefore loading the comments.
 the key word elements in your list will compare to all p instances in the HTML page.
 
 
