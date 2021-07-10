@@ -2,11 +2,12 @@ from analyser import Analyse
 
 
 def my_analysis():
-    wait_time = 10 # Set to a wait time for you to scroll through and load a desirable amount of comments
-    my_list = ['i', 'a', 'of', 'the', 'roman', 'empire'] # Choose keywords
-    url = 'https://en.wikipedia.org/wiki/Roman_Empire' #Choose your URL (preferrably a reddit comment section)
+    wait_time = 15
+    my_list = ['is', 'not', 'hi', 'i', 'the']
+    url = 'https://www.reddit.com/r/memes/comments/ogvdkn/maybe_in_10_years_time/'
+    path = rf'C:\Users\Acer\Desktop\Development\chromedriver.exe'
 
-    data = Analyse(url=url, alist=my_list, wait_time=wait_time)
+    data = Analyse(url=url, alist=my_list, wait_time=wait_time, path=path)
 
     result = data.get_result()
     data.calculate_percentage()
