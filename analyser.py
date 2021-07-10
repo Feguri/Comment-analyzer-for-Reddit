@@ -4,9 +4,9 @@ import time
 
 
 class Analyse:
-    def __init__(self, url, alist, wait_time):
+    def __init__(self, url, alist, wait_time, path):
         self.url = url
-        self.path = r'C:\Users\Acer\Desktop\Development\chromedriver.exe'
+        self.path = path
         self.driver = webdriver.Chrome(executable_path=self.path)
         self.driver.get(url)
         time.sleep(wait_time)
@@ -34,7 +34,7 @@ class Analyse:
             for item in self.user_list:
                 if type(item) != str:
                     raise TypeError('Make sure all your list items are strings.')
-                if word.lower() == item:
+                if word.lower() == item.lower():
                     self.user_dict[item] += 1
 
         self.result = sort_dict(self.user_dict)
