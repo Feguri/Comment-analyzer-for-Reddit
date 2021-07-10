@@ -3,7 +3,7 @@ This Python software will scan all the 'p' elements in a website and separate al
 
 Video Help -> https://youtu.be/vX-ZG5A0P_E
 # Step 1
-Istall The chrom driver at https://chromedriver.chromium.org/downloads. You should use the latest version for chrome.
+Istall the chrome driver at https://chromedriver.chromium.org/downloads. You should use the latest version for chrome.
 save the path to chromedriver.exe and input it into the 'path' variable
 # Step 2
 set variables for wait_time (seconds), alist and url for the Analyze Class.
